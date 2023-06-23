@@ -1,0 +1,31 @@
+  "title": "Test Rules",
+  "rules": [
+    {
+      "description": "Right Control 0 ⇨ Paste",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": [
+                "right_control"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": [
+                "right_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
